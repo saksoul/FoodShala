@@ -15,7 +15,7 @@
 <style>
     
     .login-page{
-        background-color: blue;
+        background-color: rgb(155, 210, 241);
         width: 360px;
         padding: 10% 20px 5%;
         margin: 100px 0 100px 39%;
@@ -82,7 +82,13 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">HOME</a></li>
-        <li><a href="menu.html">MENU</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MENU
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vegmenu.html">VEG</a></li>
+            <li><a href="non-vegmenu.html">NON-VEG</a></li>
+          </ul>
         <li><a href="#">CONTACT</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">LOG IN
